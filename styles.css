@@ -594,3 +594,73 @@ li {
 .liImgGame {
     margin-right: 15px;
 }
+
+/* LOGIN ELEMENTOS */
+
+form {
+    padding: 20px;
+}
+
+.input-form {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.letter-form {
+    color: white;
+}
+
+.btn-submit {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #24767c;
+    padding: 10px;
+}
+
+.container-login-principal {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.container-login {
+
+    background-color: #2A2A2A;
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+
+.container-img {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-login {
+    width: 50px;
+    height: 100px;
+}
+
+.message-register {
+    color: white;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.message-button {
+    color: white;
+    font-size: 14px;
+}
+
+.container-message {
+    display: flex;
+    justify-content: center;
+}

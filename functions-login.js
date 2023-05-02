@@ -18,7 +18,7 @@ function submitForm() {
         correoConfirm = true;
 
     }
-    if (correo == "admin123@gmail.com") {
+    if (contrasena == "admin123@gmail.com") {
 
         contrasenaConfirm = true;
 
@@ -29,14 +29,25 @@ function submitForm() {
         alerta("Correo o Contrasena incorrecto");
 
         alerta(
-            "¡Error al iniciar sección!",
+            "¡Error al iniciar sesión!",
             "Contraseña o Correo equivocados !<br>",
             "error",
             ''
         );
     } else {
 
-        window.location.href = "information2_2.html";
+        alerta(
+            "Sesión Iniciada Correctamente!",
+            "",
+            "OK",
+            ''
+        );
+        setTimeout(() => {
+
+            window.location.href = "Inicio.html";
+
+        }, 1000)
+
     }
 
 

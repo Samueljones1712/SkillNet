@@ -25,6 +25,11 @@
         <li><a class="navbarLetter" href="#">Ranking</a></li>
         <li><a class="navbarLetter" href="#">Contacto</a></li>
     </ul>
+
+    <ul>
+        <li><a class="navbarLetter" href="register.html">Registrarse</a></li>
+        <li><a class="navbarLetter" href="login.html">Ingresar</a></li>
+    </ul>
 </nav>
 
 
@@ -33,73 +38,6 @@
         background-image: url(./images/Background.png);
         background-size: 1920px 1080px;
 
-    }
-
-    .container-login-principal {
-        display: flex;
-        justify-content: flex-end;
-
-    }
-
-    .container-login {
-
-        background-color: #2A2A2A;
-        width: 300px;
-        height: 400px;
-        border-radius: 15px;
-        margin-top: 10%;
-        margin-right: 15%;
-    }
-
-    .container-img {
-        margin-top: 5%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .img-login {
-        width: 50px;
-        height: 100px;
-    }
-
-    form {
-        padding: 20px;
-    }
-
-    .input-login {
-        margin-top: 5px;
-        display: block;
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        margin-bottom: 20px;
-    }
-
-    .letter-login {
-        color: white;
-    }
-
-    .btn-submit {
-        width: 100%;
-        margin-bottom: 20px;
-        background-color: #24767c;
-    }
-
-    .message-register {
-        color: white;
-        margin-right: 5px;
-        font-size: 14px;
-    }
-
-    .message-button {
-        color: white;
-        font-size: 14px;
-    }
-
-    .container-message {
-        display: flex;
-        justify-content: center;
     }
 </style>
 
@@ -115,10 +53,10 @@
             </div>
             <div>
                 <form id="form-login">
-                    <label class="letter-login" for="email">Correo:</label>
-                    <input class="input-login" type="email" id="email" name="email" required>
-                    <label class="letter-login" for="password">Contraseña:</label>
-                    <input class="input-login" type="password" id="password" name="password" required>
+                    <label class="letter-form" for="email">Correo:</label>
+                    <input class="input-form" type="email" id="email" name="email" required>
+                    <label class="letter-form" for="password">Contraseña:</label>
+                    <input class="input-form" type="password" id="password" name="password" required>
                     <button class="btn btn-submit" type="submit">Ingresar</button>
                     <div class="container-message">
                         <p class="message-register">¿No tiene cuenta?</p><a class="message-button"
